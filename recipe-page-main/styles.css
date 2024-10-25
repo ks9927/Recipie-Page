@@ -12,6 +12,7 @@ h1, h2 {
 
 p, ol, ul, table {
   font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
 }
 
 .card {
@@ -29,6 +30,10 @@ p, ol, ul, table {
   font-weight: bold;
 }
 
+.bold {
+  color: hsl(24, 5%, 18%);
+}
+
 .prep-div {
   background-color: hsl(330, 100%, 98%) ;
 }
@@ -37,11 +42,11 @@ p, ol, ul, table {
   color:hsl(332, 51%, 32%);
 }
 
-h2, .value {
+h2, .value, li::marker {
   color: hsl(14, 45%, 36%);
 }
 
-li::marker {
-  color: hsl(14, 45%, 36%);
+hr {
+  color: hsl(30, 18%, 87%);
 }
 
