@@ -1,8 +1,47 @@
 body {
-background-color: hsl(30, 54%, 90%);
+  background-color: hsl(30, 54%, 90%);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: "Young Serif";
+}
+
+p, ol, ul, table {
+  font-family: "Outfit";
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  
+  height: 700px;
+  width: 600px;
+  padding: 30px;
 }
+
+.header-photo {
+  width: 50%; 
+}
+
+.bold, .value, li::marker {
+  font-weight: bold;
+}
+
+.prep-div {
+  background-color: hsl(330, 100%, 98%) ;
+}
+
+.prep-title {
+  color:hsl(332, 51%, 32%);
+}
+
+h2, .value {
+  color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
