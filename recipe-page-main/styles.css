@@ -58,13 +58,34 @@ hr {
 .prep-div li {
   margin-top: 4px;
   padding-top: 5px;
+  padding-left: 15px;
 }
-
-
-
 .prep-title {
   color:hsl(332, 51%, 32%);
   font-size: 20px;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 18px;
+}
+
+.ingredients-div li {
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ingredients-title {
+  padding-top: 10px;
+}
+
+.instructions-div li {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.instructions-title {
+  padding-top: 10px;
+}
+
+.nutrition-title {
+  padding-top: 10px;
 }
