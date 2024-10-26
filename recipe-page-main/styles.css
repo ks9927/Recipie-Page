@@ -27,6 +27,7 @@ p, ol, ul, table {
 
 .header-photo {
   width: 100%; 
+  border-radius: 10px;
 }
 
 .bold, .value, li::marker {
@@ -53,6 +54,14 @@ hr {
   background-color: hsl(330, 100%, 98%) ;
   height: 170px;
 }
+
+.prep-title {
+  color:hsl(332, 51%, 32%);
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
 .prep-div ul {
   margin-bottom: 45px;
 }
@@ -61,11 +70,7 @@ hr {
   padding-top: 5px;
   padding-left: 15px;
 }
-.prep-title {
-  color:hsl(332, 51%, 32%);
-  font-size: 20px;
-  padding-left: 15px;
-}
+
 
 .ingredients-div ul {
   padding-bottom: 20px;
